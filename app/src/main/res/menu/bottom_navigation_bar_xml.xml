@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ivproduct"
+        android:enabled="true"
+        android:icon="@drawable/product_icon"
+        android:title="@string/product"/>
+    <item
+        android:id="@+id/ivservice"
+        android:enabled="true"
+        android:icon="@drawable/service_icon"
+        android:title="@string/service"/>
+    <item
+        android:id="@+id/ivbooking"
+        android:enabled="true"
+        android:icon="@drawable/booking_icon"
+        android:title="@string/booking"/>
+    <item
+        android:id="@+id/ivprofile"
+        android:enabled="true"
+        android:icon="@drawable/profile_icon"
+        android:title="@string/profile"/>
+</menu>
