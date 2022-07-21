@@ -8,8 +8,8 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fcvHome"
-        android:layout_width="372dp"
-        android:layout_height="598dp"
+        android:layout_width="350dp"
+        android:layout_height="582dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
