@@ -1,8 +1,9 @@
-package com.prudence.salonapplication
+package com.prudence.BeautyApp
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.prudence.BeautyApp.R
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

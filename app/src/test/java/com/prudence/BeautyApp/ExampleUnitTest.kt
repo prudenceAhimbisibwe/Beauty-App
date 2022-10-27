@@ -1,4 +1,4 @@
-package com.prudence.salonapplication
+package com.prudence.BeautyApp
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.prudence.salonapplication
+package com.prudence.BeautyApp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,8 +1,8 @@
-package com.prudence.salonapplication
+package com.prudence.BeautyApp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.prudence.salonapplication.databinding.ActivityHomeBinding
+import com.prudence.BeautyApp.databinding.ActivityHomeBinding
 
 class HomeActivity : AppCompatActivity() {
     lateinit var binding:ActivityHomeBinding
@@ -15,29 +15,29 @@ class HomeActivity : AppCompatActivity() {
     }
     fun CastView(){
         binding.fcvHome
-        binding.bnvHome
+        binding.bottomNavigation
 
     }
     fun setupBottomNav(){
-        binding.bnvHome.setOnItemSelectedListener { item ->
+        binding.bottomNavigation.setOnItemSelectedListener { item ->
             when(item.itemId){
-                R.id.ivproduct ->{
+                R.id.Product ->{
                     val transaction=supportFragmentManager.beginTransaction()
                     transaction.replace(R.id.fcvHome,ProductFragment())
                     transaction.commit()
                     true
                 }
-                R.id.ivservice->{
+                R.id.Service->{
                     val transaction=supportFragmentManager.beginTransaction()
                     transaction.replace(R.id.fcvHome,ServiceFragment())
                     transaction.commit()
                     true
                 }
-                R.id.ivbooking->{
+                R.id.Booking->{
                     supportFragmentManager.beginTransaction().replace(R.id.fcvHome,BookingFragment()).commit()
                     true
                 }
-                R.id.ivprofile->{
+                R.id.Profile->{
                     supportFragmentManager.beginTransaction().replace(R.id.fcvHome,ProfileFragment()).commit()
                     true
                 }
